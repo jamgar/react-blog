@@ -6,7 +6,7 @@ import { fetchPost, deletePost } from '../actions/index';
 
 class PostsShow extends Component {
   static contextTypes = {
-    router: PropTypes
+    router: PropTypes.object
   };
 
   componentWillMount() {
